@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fruits Bukhara</title>
+    <link rel="stylesheet" href="./my_fruits.css">
+</head>
+<body>
+    <header>
+        <!-- Buket rasmi qismi  -->
+        <div class="container">
+            <div class="My_f_logo"></div>
+            <div class="my_f_text">
+                <a href=""><li>Buketi</li></a>
+                <a href=""><li>Menu</li></a>
+                <a href=""><li>Video</li></a>
+                <a href=""><li>Suppsourt</li></a>
+            </div>
+            <div class="btn">
+                <div class="aloqa">Aloqa </div>
+                <div class="aloqa"></div>
+            </div>
+        </div>
+
+        <!-- Menu qismi  -->
+         <div class="Menu">
+            <div class="Menu_text"></div>
+            <!-- <div class="Menu_Img"><video controls="controls" autoplay="autoplay" width="600px" height="250px" src="/my_fruits_img/IMG_7891.MOV"></video>></div> -->
+            <video src="/my_fruits_img/IMG_7891.MOV" controls class="video"></video>
+            <button onclick="copyLink()">Havolani nusxalash</button>
+            <script>
+                function copyLink() {
+                    const link = "https://sizning-saytingiz.com/video.mp4";
+                    navigator.clipboard.writeText(link);
+                    alert("Havola nusxalandi!");
+                }
+            </script>
+
+         </div>
+         
+
+    </header>
+    
+</body>
+</html>
